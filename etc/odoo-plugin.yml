@@ -1,0 +1,8 @@
+type: odoo
+name: my_odoo
+odoo_config:
+    server:
+    port:
+    database:
+    userid:
+    password:

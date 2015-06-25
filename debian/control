@@ -1,0 +1,17 @@
+Source: xivo-dird-plugin-odoo
+Section: python
+Priority: extra
+Maintainer: Alexis de Lattre <alexis@via.ecp.fr>
+Uploaders: Alexis de Lattre <alexis@via.ecp.fr>
+Build-Depends: debhelper (>= 8), dh-python, python-all (>= 2.7), python-setuptools
+Standards-Version: 3.9.4
+X-Python-Version: >= 2.7
+Homepage: https://github.com/alexis-via/xivo-dird-plugin-backend-odoo
+
+Package: xivo-dird-plugin-odoo
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, xivo-lib-python, xivo-dird
+Description: XIVO telephony systems library for directories manager
+ XIVO is a system based on a powerful IPBX, to bring an easy to
+ install solution for telephony and related services.
+ .
