@@ -46,10 +46,6 @@ The possible fields with this plugin are :
             -
                 title: Email
                 field: email
-            -
-                title: Fax
-                field: fax
-                type: ???
 
 You should add the source like this:
 
