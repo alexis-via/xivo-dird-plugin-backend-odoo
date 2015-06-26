@@ -10,7 +10,9 @@ This plugin gets contacts from Odoo v7 or v8.
 
 ## How to use
 
-In the config file */etc/xivo-dird/config.yml*, enable the odoo plugin:
+On the Odoo side, you need to install the *base_phone* module, which is a module of the [Odoo Community Association](https://odoo-community.org/) available on the [connector-telephony](https://github.com/OCA/connector-telephony) github project. When you install this module, a wizard will propose you to reformat the phone numbers in E.164 format ; you should follow the instructions of the wizard.
+
+On the Xivo side, in the config file */etc/xivo-dird/config.yml*, enable the odoo plugin:
 
     enabled_plugins:
         backends:
