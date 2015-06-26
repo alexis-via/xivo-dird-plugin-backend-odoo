@@ -67,3 +67,5 @@ Eventually, add a configuration file *my\_odoo.yml* in the *sources.d* subdirect
         database: prod
         port: 8069
         server: 192.168.12.42
+
+To benefit from the contacts of Odoo in the Xivo Client, you need to update the configuration of the profile of the Xivo Client. For that, in the Web administration interface of Xivo, go to the menu *Services > CTI Server > General Settings > Profiles* and edit your profile (*Client* by default): in the *Xlet* tab, add the *People* Xlet (or replace the *Remote directory* Xlet by the *People* Xlet).
